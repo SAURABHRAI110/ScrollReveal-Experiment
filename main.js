@@ -1,10 +1,10 @@
 ScrollReveal().reveal('.section1');
 ScrollReveal().reveal('h1', {
-    delay: 1000,
+    delay: 300,
     reset: true
 });
 ScrollReveal().reveal('h2', {
-    delay: 1500,
+    delay: 500,
 });
 ScrollReveal().reveal('.section2', {
     reset: true
@@ -18,6 +18,6 @@ ScrollReveal().reveal('.section4', {
 
 
 ScrollReveal().reveal('.little-square', {
-    interval: 40,
+    interval: 20,
     reset: true
 });
