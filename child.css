@@ -4,8 +4,12 @@ body {
     padding: 0%;
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 .section {
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -32,6 +36,7 @@ h1 {
     color: #fff;
     align-content: center;
 
+
 }
 
 h2 {
@@ -40,4 +45,11 @@ h2 {
     text-align: center;
     color: #fff;
     align-content: center;
+}
+
+
+.span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
 }
